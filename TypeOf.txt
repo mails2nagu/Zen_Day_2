@@ -1,0 +1,11 @@
+The typeof operator is used to get the data type (returns a string) of its operand.
+
+typeof(1) 		- type of integer is "Number"
+typeof(1.1)		- type of fraction is "Number"
+typeof('1.1')		- The  variable in double or single quote is "String". even if the variable is integer or fraction.
+typeof(true)		- The type is "boolean"
+typeof(null)		- The type is "object"
+typeof(undefined)	- A variable that has not been assigned a value is undefined
+typeof([])		- "Object" (array type is object)
+typeof({})		- "Object"
+typeof(NaN)		- "Number" (a numeric data type used to represent any value that is undefined or unpresentable)
